@@ -22,7 +22,7 @@ export const Navbar = () => {
             to="/marvel"
           >
             Marvel
-                    </NavLink>
+          </NavLink>
 
           <NavLink
             activeClassName="active"
@@ -31,7 +31,15 @@ export const Navbar = () => {
             to="/dc"
           >
             DC
-                    </NavLink>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            className="nav-item nav-link"
+            exact
+            to="/search"
+          >
+            Search
+          </NavLink>
         </div>
       </div>
 
