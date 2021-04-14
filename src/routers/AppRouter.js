@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import {
+  //HashRouter para web, BrowserRouter para local
   BrowserRouter as Router,
   Switch,
   // Link
